@@ -1,0 +1,8 @@
+{
+  "name": "pepito",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "firebase": "^8.10.1"
+  }
+}
