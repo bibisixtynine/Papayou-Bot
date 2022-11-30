@@ -14,7 +14,7 @@ import { Bot, UUID } from './libs/utils';
 // Initialize the chatbot
 //
 const appDiv: HTMLElement = document.getElementById('app');
-appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
+appDiv.innerHTML = `<h1>Bibil Bot is ready !</h1>`;
 
 let bot = new Bot('🤖');
 bot.sayHello();
@@ -28,15 +28,12 @@ console.log('#Bibil: Bot is READY')
 
 //=======================================================//
 //
-// FIREBASE
-//
-// 1. imports
-
+// FIREBASE 8
 //
 // 2. init
 const firebaseConfig = {
   databaseURL:
-    'https://my-papayou-default-rtdb.europe-west1.firebasedatabase.app/',
+    'https://my-papayou-2-default-rtdb.europe-west1.firebasedatabase.app/',
 };
 //
 // 3. Initialize Firebase
