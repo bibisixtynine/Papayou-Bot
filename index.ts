@@ -5,6 +5,8 @@
 //
 
 import './style.css';
+import firebase from 'firebase/app';
+import 'firebase/database';
 import { Bot, UUID } from './libs/utils';
 
 //=======================================================//
@@ -29,8 +31,7 @@ console.log('#Bibil: Bot is READY')
 // FIREBASE
 //
 // 1. imports
-import firebase from 'firebase/app';
-import 'firebase/database';
+
 //
 // 2. init
 const firebaseConfig = {
