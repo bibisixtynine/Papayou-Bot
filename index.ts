@@ -16,7 +16,7 @@ import { Bot, UUID } from './libs/utils';
 // Initialize the chatbot
 //
 const appDiv: HTMLElement = document.getElementById('app');
-appDiv.innerHTML = `<h1>Bibil Bot is ready !</h1>`;
+appDiv.innerHTML = `<h1>Bibil Botoipi is ready !</h1>`;
 
 let bot = new Bot('🤖');
 bot.sayHello();
